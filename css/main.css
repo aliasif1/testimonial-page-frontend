@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(42, 131, 143, 0.158);
+}
+
+.row .item{
+    padding: 10px;
+}
+
+.row .item .item-inner{
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.header img{
+    width: 40px;
+    border-radius: 50% !important;
+}
+
+.header div div {
+    padding-left: 50px;
+}
+
+.body{
+    display: block;
+    clear: both;
+}
+
+.name{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.light-text{
+    font-weight: 200;
+}
+
+.small-text{
+    font-size: 0.8rem;
+}
+
+.big-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.row .item .item-inner.item-inner-1{
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+ }
+
+ .row .item .item-inner.item-inner-2{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+ }
+
+ .row .item .item-inner.item-inner-3{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+ }
+
+ .row .item .item-inner.item-inner-4{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+ }
+
+ .row .item .item-inner.item-inner-5{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+ }
+
+ .author{
+     color:grey;
+     font-style: italic;
+ }
